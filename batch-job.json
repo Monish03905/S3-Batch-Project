@@ -33,6 +33,6 @@
   "Priority": 10,
   "RoleArn": "arn:aws:iam::000000000000:role/S3BatchRetagJobRole",
   "ConfirmationRequired": false,
-  "ClientRequestToken": "replace-with-a-unique-request-token",
+  "ClientRequestToken": "REPLACE_WITH_UNIQUE_CLIENT_REQUEST_TOKEN",
   "Description": "S3 Batch Operations object tagging demo"
 }

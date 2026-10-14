@@ -101,10 +101,11 @@ The manifest is a headerless CSV with `bucket,key` rows, as expected by the
 
 The JSON files in this repository are **templates**, not ready-to-submit
 account configuration. Replace `example-source-bucket`,
-`example-reports-bucket`, `000000000000`, and
-`REPLACE_WITH_UPLOADED_MANIFEST_ETAG` with values for your account and uploaded
-manifest. For multipart-uploaded manifests, use the exact ETag returned by
-`head-object`.
+`example-reports-bucket`, `000000000000`,
+`REPLACE_WITH_UPLOADED_MANIFEST_ETAG`, and
+`REPLACE_WITH_UNIQUE_CLIENT_REQUEST_TOKEN` with values for your account and
+uploaded manifest. For multipart-uploaded manifests, use the exact ETag
+returned by `head-object`.
 
 The job template requests object tagging (`lifecycle=archive`) and writes a
 completion report. Before creating a job, verify that:
