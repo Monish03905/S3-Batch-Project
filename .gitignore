@@ -1,0 +1,27 @@
+# Generated 10-million-object data and resumable runtime state
+10m-manifest.csv
+10m_upload_checkpoint.json
+10m_upload_checkpoint.json.tmp
+10m_failed_objects.txt
+*-upload-checkpoint.json
+*-upload-failures.txt
+*-checkpoint.json
+*-failures.txt
+*.tmp
+
+# AWS account-specific setup output
+project-config.json
+project-config.txt
+batch-job-policy.json
+
+# Local Python environment and generated files
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Local credentials and editor files
+.env
+.aws/
+.vscode/
+.idea/

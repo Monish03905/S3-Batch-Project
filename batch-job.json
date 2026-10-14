@@ -1,0 +1,38 @@
+{
+  "AccountId": "000000000000",
+  "Manifest": {
+    "Spec": {
+      "Format": "S3BatchOperations_CSV_20180820",
+      "Fields": [
+        "Bucket",
+        "Key"
+      ]
+    },
+    "Location": {
+      "ObjectArn": "arn:aws:s3:::example-reports-bucket/manifests/manifest.csv",
+      "ETag": "REPLACE_WITH_UPLOADED_MANIFEST_ETAG"
+    }
+  },
+  "Operation": {
+    "S3PutObjectTagging": {
+      "TagSet": [
+        {
+          "Key": "lifecycle",
+          "Value": "archive"
+        }
+      ]
+    }
+  },
+  "Report": {
+    "Bucket": "arn:aws:s3:::example-reports-bucket",
+    "Prefix": "completion-reports/",
+    "Format": "Report_CSV_20180820",
+    "Enabled": true,
+    "ReportScope": "AllTasks"
+  },
+  "Priority": 10,
+  "RoleArn": "arn:aws:iam::000000000000:role/S3BatchRetagJobRole",
+  "ConfirmationRequired": false,
+  "ClientRequestToken": "replace-with-a-unique-request-token",
+  "Description": "S3 Batch Operations object tagging demo"
+}

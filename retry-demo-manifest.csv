@@ -1,0 +1,3 @@
+example-source-bucket,test-data/object-1.txt
+example-source-bucket,test-data/object-2.txt
+example-source-bucket,test-data/missing-object.txt

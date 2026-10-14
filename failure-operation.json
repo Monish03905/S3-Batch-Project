@@ -1,0 +1,10 @@
+{
+  "S3PutObjectTagging": {
+    "TagSet": [
+      {
+        "Key": "lifecycle",
+        "Value": "archive"
+      }
+    ]
+  }
+}

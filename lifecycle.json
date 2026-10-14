@@ -1,0 +1,20 @@
+{
+  "Rules": [
+    {
+      "ID": "ArchiveTaggedObjects",
+      "Status": "Enabled",
+      "Filter": {
+        "Tag": {
+          "Key": "lifecycle",
+          "Value": "archive"
+        }
+      },
+      "Transitions": [
+        {
+          "Days": 30,
+          "StorageClass": "STANDARD_IA"
+        }
+      ]
+    }
+  ]
+}

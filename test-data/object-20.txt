@@ -1,0 +1,3 @@
+﻿S3 Batch Operations Demo - Object 20
+Lifecycle candidate: archive
+Created for Y24-SAA-Team112 project.
