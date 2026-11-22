@@ -12,6 +12,9 @@
 
 </div>
 
+**What this is:** a complete, inspectable walkthrough of Amazon S3 Batch Operations — a CSV/JSON manifest of target objects, the IAM role the service assumes, a `S3PutObjectTagging` job that tags every listed object, and the scripts that provision, submit and inspect the job. It starts with a safe 20-object smoke test and scales to a documented 10-million-object run. No AWS account is needed to read the templates or run the mocked tests.
+
+
 > [!CAUTION]
 > **A 10-million-object run can incur substantial AWS charges.** Begin with the
 > 20-object demo, review AWS pricing, and use a bucket you can safely modify.
